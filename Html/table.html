@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+
+    <a href="home.html">Home - Estudo</a>
+    <hr>
+
+    <!-- table - Criando tabelas -->
+    <!-- tr - Linha da tabela -->
+    <!-- td - Celulas da tabela -->
+    <!-- th - Cabeçalho da tabela -->
+    <!-- width - Largura de algo -->
+    <!-- img - Usado para referenciar uma figura -->
+    <!-- align - Usando para orientar a posição do texto -->
+    <!-- border - Borda da tabelas -->
+    <!--  -->
+
+
+    <h1>Tabelas</h1>
+
+    <table border="5">
+
+        <tr>
+            <th width="13%">Código</th>
+            <th>Produto</th>
+            <th>Imagem</th>
+            <th>Preço</th>
+        </tr>
+
+        <tr>
+            <td>001</td>
+            <td width="30%">Notebook Acer</td>
+            <td><img src="image/acer.jpg" width="200"><br><a href="#">Compre-me</a></td>
+            <td width="30%" align="center">R$ 2.500,00</td>
+        </tr>
+
+        <tr>
+            <td>002</td>
+            <td width="30%">Notebook LG</td>
+            <td><img src="image/lg.jpg" width="200"><br><a href="#">Compre-me</td>
+            <td width="30%" align="center">R$ 2.900,00</td>
+        </tr>
+
+        <!-- colspan - Permite agrupar colunas na tabela -->
+        <!-- rowspan - Permite agrupar linhas na tabela -->
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="3">Cupom1 -R$ 10,00</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Cupom2 -R$ 12,00</td>
+        </tr>
+
+
+        <tr>
+            <td>Total</td>
+            <td colspan="3">R$ 3.478,98</td>
+        </tr>
+
+
+    </table>
+
+</body>
+
+</html>

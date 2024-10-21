@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <a href="home.html">Home - Estudo</a>
+    <hr>
+    <br>
+
+    <h2>Tela de Login</h2>
+
+    <!-- form - Metodo usado para formularios para capturar dados -->
+    <!-- input - Metodo usado para inserção de dados ao formulario -->
+    <!-- placeholder - Metodo usado para orientar o usario o que deve escrever -->
+    <!-- name - Usado em conjunto com o banco de dados -->
+    <!-- type - Tipo de dados que será inserido na caixa box -->
+    <!-- value - Defini o texto do objeto -->
+    <!-- action - Envia dados das inputs, para uma pagina do php que faz o gerenciamento do bando de dados. -->
+
+
+    <!-- type - text(texto), password(senha), button(botão), submit(enviar), radio(escolha), checkbox(marcação), select(escolha), 
+    textarea(textos),  -->
+
+    <form action="">
+
+        E-mail: <br>
+        <input type="text" name="email" placeholder="Digite seu e-mail">
+
+        <br>
+        <br>
+
+        Senha: <br>
+        <input type="password" name="senha" placeholder="Digite sua Senha">
+
+        <br>
+        <br>
+
+        <!-- button - Craindo um botão -->
+        <input type="button" value="Logar">
+
+        <!-- submit - Craindo um botão de enviar os dados -->
+        <input type="submit" value="Enviar">
+
+    </form>
+    <hr>
+
+    <h2>Tela de Cadastro</h2>
+
+
+    <form action="">
+        Login: <br>
+        <input type="text" name="email" placeholder="Digite seu e-mail">
+
+        <br>
+        <br>
+
+        Sexo: <br>
+        <input type="radio" name="sexo" value="Masculino"> Masculino <br>
+        <input type="radio" name="sexo" value="Feminino"> Feminino <br>
+
+        <br>
+        <br>
+
+        Interesse: <br>
+        <input type="checkbox" name="interesse" value="Esportes"> Esport <br>
+        <input type="checkbox" name="interesse" value="Moda"> Moda <br>
+        <input type="checkbox" name="interesse" value="Cursos"> Cursos <br>
+
+        <br>
+        <br>
+
+        Estado: <br>
+        <select name="estado">
+            <option value="Acre">Acre</option>
+            <option value="Alagoas">Alagoas</option>
+            <option value="São Paulo">São Paulo</option>
+        </select>
+
+        <br>
+        <br>
+
+        Observação: <br>
+        <textarea name="observacao" rows="5" cols="30"></textarea> <br>
+        <input type="submit" value="Enviar">
+
+
+
+    </form>
+
+</body>
+
+</html>
